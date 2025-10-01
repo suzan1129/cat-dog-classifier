@@ -23,10 +23,9 @@ model/*.pth
 *.pt
 
 # Dataset (完整資料集太大)
-Dataset/
-dataset/
-*/dataset/
-*/Dataset/
+Dataset/*
+!Dataset/inference_dataset/
+
 
 # Local test folder (放我家狗狗照片)
 test/
