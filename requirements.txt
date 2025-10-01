@@ -1,0 +1,7 @@
+opencv-contrib-python==4.10.0.84
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+matplotlib==3.7.3
+torchsummary==1.5.1
+PyQt5==5.15.11

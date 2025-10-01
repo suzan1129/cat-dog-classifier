@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Model weights (太大)
+model/*.pth
+*.pth
+*.pt
+
+# Dataset (完整資料集太大)
+Dataset/
+dataset/
+*/dataset/
+*/Dataset/
+
+# Local test folder (放我家狗狗照片)
+test/
+
+# CatDog_original (放舊版的 CatDogClassifier.py)
+CatDog_original/
+
+# Logs or temp
+logs/
+cache/
